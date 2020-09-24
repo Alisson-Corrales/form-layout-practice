@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang = "en" style="background-color: #f5d5cb; font-size: large; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+<head>
+    <meta charset = "utf-8">
+    <title>Basic Form</title>
+    <meta name = "author" content = "Alisson C.">
+
+    <meta name = "description" content = "describe the page">
+    
+    <link rel = "shortcut icon" href = "favicon.png" type = "image/x-icon">
+
+</head>
+<body>
+        <img src = "restuarant.png" style="width: 700 px; height: 500px;">
+
+        <fieldset>
+            <legend>User Information</legend>
+            <ul>
+            <label for = "username">User Name</label>
+            <input type = "text" id = "name" name = "user.name">
+            <br>
+            </ul>
+            <ul>
+            <label for = "password">Password</label>
+            <input type = "password" id = "password" name = "user.password">
+            </ul>
+        </fieldset>
+
+    
+        <fieldset>
+            <legend>If any, would you like a drink?</legend>
+            <ul><input type = "radio" id = "cocaCola" name = "user.drink">
+                <label for = "cocaCola"> Coca Cola </label> <br>
+            </ul>
+            <ul>
+            <input type = "radio" id = "sprite" name = "user.drink">
+                <label for = "sprite"> Sprite </label> <br>
+            </ul>
+            <ul>
+            <input type = "radio" id = "bonk" name = "user.drink">
+                <label for = "bonk"> Cherry Bonk! </label> <br>
+            </ul>
+            <ul>
+            <input type = "radio" id = "fanta" name = "user.drink">
+                <label for = "fanta"> Grape Fanta </label> 
+            </ul>
+        </fieldset>
+    
+
+        <fieldset>
+            <legend>Pizza Preferences</legend>
+            <ul>
+            <input type = "checkbox" id="pepperoniTopping" name = "topping">
+                <label for = "pepperoniTopping"> Pepperoni </label>
+            </ul>
+            <ul>
+            <input type = "checkbox" id = "honeyTopping" name = "topping">
+                <label for = "honeyTopping"> Honey </label>
+            </ul>
+            <ul>
+            <input type = "checkbox" id="basilTopping" name = "topping">
+                <label for = "basilTopping"> Basil </label>
+            </ul>
+            <ul>
+            <input type = "checkbox" id="mushroomTopping" name = "topping">
+                <label for = "mushroomTopping"> Mushrooms </label>
+            </ul>
+        </fieldset>
+
+        
+
+        <fieldset>
+            <legend>Special Instructions</legend>
+            <ul>
+            <label for>Special Instructions:</label>
+            <br>
+            <textarea id = "instructions" name = "user.instructions" cols="45" rows="15"> </textarea>
+            </ul>
+            <button type="submit">Submit</button>
+        </fieldset>
+
+</body>
+
+</html>
